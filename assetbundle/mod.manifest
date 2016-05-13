@@ -1,0 +1,65 @@
+ManifestFileVersion: 0
+CRC: 2276673417
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 733b6ce9e21ce46030eedcef355e7d08
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 65a42fff7c06e41afbe9e914b7eb20ff
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Mods/SciFi/SciFi@Bench.prefab
+- Assets/Mods/SciFi/SciFi@Thing.prefab
+- Assets/Mods/SciFi/SciFi@Satellite.prefab
+- Assets/Mods/SciFi/SciFi@WallBasicDoor.prefab
+- Assets/Mods/SciFi/SciFi@Cylinder_1.prefab
+- Assets/Mods/SciFi/SciFi@Quad.prefab
+- Assets/Mods/SciFi/SciFi@Cylinder.prefab
+- Assets/Mods/SciFi/SciFi@TSplit.prefab
+- Assets/Mods/SciFi/SciFi@4D_Cinema.prefab
+- Assets/Mods/SciFi/SciFi@Thing_2.prefab
+- Assets/Mods/SciFi/SciFi@TurnInner.prefab
+- Assets/Mods/SciFi/SciFi@TopWindow.prefab
+- Assets/Mods/SciFi/SciFi@LaserBattle.prefab
+- Assets/Mods/SciFi/SciFi@TopBasic_3.prefab
+- Assets/Mods/SciFi/SciFi@TopBasic.prefab
+- Assets/Mods/SciFi/SciFi@TurnOuter.prefab
+- Assets/Mods/SciFi/SciFi@WallBasic.prefab
+- Assets/Mods/SciFi/SciFi@TopCross.prefab
+- Assets/Mods/SciFi/SciFi@TopBasicHole_.prefab
+- Assets/Mods/SciFi/SciFi@WallBasicHole.prefab
+Dependencies: []
