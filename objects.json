@@ -1,3 +1,3 @@
 { 
-objects : ["SciFi@4D_Cinema","SciFi@LaserBattle","SciFi@Quad","SciFi@Satellite","SciFi@TopBasicHole_","SciFi@WallBasic","SciFi@TurnInner","SciFi@TopWindow","SciFi@TopCross","SciFi@TopBasic","SciFi@TSplit","SciFi@TurnOuter","SciFi@TopBasic_3","SciFi@Bench","SciFi@Cylinder_1","SciFi@WallBasicHole","SciFi@Thing","SciFi@WallBasicDoor","SciFi@Thing_2","SciFi@Cylinder"]
+objects : ["Sci Fi@4D_Cinema","Sci Fi@LaserBattle","Sci Fi@Quad","Sci Fi@Satellite","Sci Fi@TopBasicHole_","Sci Fi@WallBasic","Sci Fi@TurnInner","Sci Fi@TopWindow","Sci Fi@TopCross","Sci Fi@TopBasic","Sci Fi@TSplit","Sci Fi@TurnOuter","Sci Fi@TopBasic_3","Sci Fi@Bench","Sci Fi@Cylinder_1","Sci Fi@WallBasicHole","Sci Fi@Thing","Sci Fi@WallBasicDoor","Sci Fi@Thing_2","Sci Fi@Cylinder"]
  }

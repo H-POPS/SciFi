@@ -75,6 +75,7 @@ public class ModLoader : MonoBehaviour
                                     DM.SnapCenter = Convert.ToBoolean(ParkOBJ["snapCenter"].InnerText);
                                     DM.category = ParkOBJ["category"].InnerText;
                                     DM.BuildOnGrid = Convert.ToBoolean(ParkOBJ["grid"].InnerText);
+                                    DM.gridSubdivision = float.Parse(ParkOBJ["gridSubdivision"].InnerText);
                                     MO = DM;
                                     break;
                                 case "trashbin":

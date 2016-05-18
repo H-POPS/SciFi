@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod>
+  <ModName>Sci Fi</ModName>
+  <ModDiscription>Add Sci-Fi to your game!</ModDiscription>
+  <Objects>
+    <Object>
+      <OBJName>Sci Fi@4D_Cinema</OBJName>
+      <Type>FlatRide</Type>
+      <inGameName>4D Cinema</inGameName>
+      <price>500</price>
+      <X>5</X>
+      <Z>4</Z>
+      <RestraintAngle>(0.0, 0.0, 0.0)</RestraintAngle>
+      <Excitement>0.2</Excitement>
+      <Intensity>0.05</Intensity>
+      <Nausea>0</Nausea>
+      <Animation>
+        <motors />
+        <phases>
+          <phase>
+            <events>
+              <Wait>
+                <Seconds>10</Seconds>
+              </Wait>
+            </events>
+          </phase>
+        </phases>
+      </Animation>
+      <Waypoints>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>1,4</connectedTo>
+          <localPosition>(-2.0, 0.0, -1.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>14,0,2</connectedTo>
+          <localPosition>(-2.0, 0.0, -0.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>14,3,1</connectedTo>
+          <localPosition>(-2.0, 0.0, 0.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>5,2</connectedTo>
+          <localPosition>(-2.0, 0.0, 1.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>0,6</connectedTo>
+          <localPosition>(-1.0, 0.0, -1.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>3,7</connectedTo>
+          <localPosition>(-1.0, 0.0, 1.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>4,8,10</connectedTo>
+          <localPosition>(0.0, 0.0, -1.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>5,9</connectedTo>
+          <localPosition>(0.0, 0.0, 1.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>6</connectedTo>
+          <localPosition>(1.0, 0.0, -1.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>7,13</connectedTo>
+          <localPosition>(1.0, 0.0, 1.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>6,11</connectedTo>
+          <localPosition>(2.0, 0.0, -1.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>12,10</connectedTo>
+          <localPosition>(2.0, 0.0, -0.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>13,11</connectedTo>
+          <localPosition>(2.0, 0.0, 0.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>9,12</connectedTo>
+          <localPosition>(2.0, 0.0, 1.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>15,2,1</connectedTo>
+          <localPosition>(-1.7, 0.0, 0.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>14</connectedTo>
+          <localPosition>(0.3, 0.0, 0.0)</localPosition>
+        </Waypoint>
+      </Waypoints>
+      <recolorable>true</recolorable>
+      <shader>Specular</shader>
+      <Color1>67FADD</Color1>
+      <Color2>A6A6A6</Color2>
+      <Color3>565656</Color3>
+      <Color4>67FADD</Color4>
+      <BoudingBoxes>
+        <BoudingBox>
+          <min>(2.0, 0.0, -1.5)</min>
+          <max>(-2.0, 2.8, 1.5)</max>
+        </BoudingBox>
+      </BoudingBoxes>
+    </Object>
+    <Object>
+      <OBJName>Sci Fi@LaserBattle</OBJName>
+      <Type>FlatRide</Type>
+      <inGameName>Laser Battle</inGameName>
+      <price>400</price>
+      <X>5</X>
+      <Z>5</Z>
+      <RestraintAngle>(0.0, 0.0, 0.0)</RestraintAngle>
+      <Excitement>0.12</Excitement>
+      <Intensity>0.05</Intensity>
+      <Nausea>0.02</Nausea>
+      <Animation>
+        <motors>
+          <RotateBetween>
+            <Identifier>RotateBetween_1</Identifier>
+            <axis>EEntrance/Door</axis>
+            <rotationAxis>(0.0, 90.0, 0.0)</rotationAxis>
+            <duration>3</duration>
+          </RotateBetween>
+        </motors>
+        <phases>
+          <phase>
+            <events>
+              <FromToRot>
+                <Identifier>RotateBetween_1</Identifier>
+              </FromToRot>
+            </events>
+          </phase>
+          <phase>
+            <events>
+              <Wait>
+                <Seconds>10</Seconds>
+              </Wait>
+            </events>
+          </phase>
+          <phase>
+            <events>
+              <ToFromRot>
+                <Identifier>RotateBetween_1</Identifier>
+              </ToFromRot>
+            </events>
+          </phase>
+        </phases>
+      </Animation>
+      <Waypoints>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>1,5</connectedTo>
+          <localPosition>(-2.0, 0.0, -2.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>2,0,18</connectedTo>
+          <localPosition>(-2.0, 0.0, -1.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>16,3,1</connectedTo>
+          <localPosition>(-2.0, 0.0, 0.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>2,4,17</connectedTo>
+          <localPosition>(-2.0, 0.0, 1.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>3,6</connectedTo>
+          <localPosition>(-2.0, 0.0, 2.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>0,7,18</connectedTo>
+          <localPosition>(-1.0, 0.0, -2.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>8,4,17</connectedTo>
+          <localPosition>(-1.0, 0.0, 2.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>5,9</connectedTo>
+          <localPosition>(0.0, 0.0, -2.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>10,6</connectedTo>
+          <localPosition>(0.0, 0.0, 2.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>7,11</connectedTo>
+          <localPosition>(1.0, 0.0, -2.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>15,8</connectedTo>
+          <localPosition>(1.0, 0.0, 2.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>9,19</connectedTo>
+          <localPosition>(2.0, 0.0, -2.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>13,19</connectedTo>
+          <localPosition>(2.2, 0.0, -1.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>12,14</connectedTo>
+          <localPosition>(2.3, 0.0, 0.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>13,20</connectedTo>
+          <localPosition>(2.2, 0.0, 1.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>10,20</connectedTo>
+          <localPosition>(2.0, 0.0, 2.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>2</connectedTo>
+          <localPosition>(0.5, 0.0, 0.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>3,6</connectedTo>
+          <localPosition>(-1.6, 0.0, 1.7)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>1,5</connectedTo>
+          <localPosition>(-1.5, 0.0, -1.6)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>11,12</connectedTo>
+          <localPosition>(2.2, 0.0, -1.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>14,15</connectedTo>
+          <localPosition>(2.2, 0.0, 1.6)</localPosition>
+        </Waypoint>
+      </Waypoints>
+      <recolorable>true</recolorable>
+      <shader>Specular</shader>
+      <Color1>858585</Color1>
+      <Color2>67FADD</Color2>
+      <Color3>007A85</Color3>
+      <Color4>FF00FF</Color4>
+      <BoudingBoxes>
+        <BoudingBox>
+          <min>(-2.0, 1.3, -2.0)</min>
+          <max>(2.0, 0.0, 2.0)</max>
+        </BoudingBox>
+        <BoudingBox>
+          <min>(-0.3, 1.3, 0.5)</min>
+          <max>(0.7, 2.5, -0.5)</max>
+        </BoudingBox>
+      </BoudingBoxes>
+    </Object>
+    <Object>
+      <OBJName>Sci Fi@Quad</OBJName>
+      <Type>CoasterCar</Type>
+      <inGameName>SciFi</inGameName>
+      <price>0</price>
+      <CoasterName>Steel Coaster</CoasterName>
+      <RestraintAngle>(0.0, 0.0, 0.0)</RestraintAngle>
+      <recolorable>false</recolorable>
+      <shader>Diffuse</shader>
+    </Object>
+    <Object>
+      <OBJName>Sci Fi@Satellite</OBJName>
+      <Type>deco</Type>
+      <inGameName>Satellite</inGameName>
+      <price>75</price>
+      <grid>false</grid>
+      <snapCenter>true</snapCenter>
+      <category>SciFi</category>
+      <heightDelta>1</heightDelta>
+      <gridSubdivision>1</gridSubdivision>
+      <recolorable>true</recolorable>
+      <shader>Diffuse</shader>
+      <Color1>838383</Color1>
+      <Color2>67FADD</Color2>
+      <Color3>676767</Color3>
+      <Color4>FF00FF</Color4>
+    </Object>
+    <Object>
+      <OBJName>Sci Fi@TopBasicHole_</OBJName>
+      <Type>deco</Type>
+      <inGameName>Roof (Hole)</inGameName>
+      <price>5</price>
+      <grid>true</grid>
+      <snapCenter>true</snapCenter>
+      <category>SciFi</category>
+      <heightDelta>1</heightDelta>
+      <gridSubdivision>1</gridSubdivision>
+      <recolorable>true</recolorable>
+      <shader>Diffuse</shader>
+      <Color1>838383</Color1>
+      <Color2>67FADD</Color2>
+      <Color3>1C0FFF</Color3>
+      <Color4>FF00FF</Color4>
+    </Object>
+    <Object>
+      <OBJName>Sci Fi@WallBasic</OBJName>
+      <Type>deco</Type>
+      <inGameName>Wall</inGameName>
+      <price>5</price>
+      <grid>true</grid>
+      <snapCenter>true</snapCenter>
+      <category>SciFi</category>
+      <heightDelta>1</heightDelta>
+      <gridSubdivision>1</gridSubdivision>
+      <recolorable>true</recolorable>
+      <shader>Diffuse</shader>
+      <Color1>838383</Color1>
+      <Color2>67FADD</Color2>
+      <Color3>1C0FFF</Color3>
+      <Color4>FF00FF</Color4>
+    </Object>
+    <Object>
+      <OBJName>Sci Fi@TurnInner</OBJName>
+      <Type>deco</Type>
+      <inGameName>Wall (Inner)</inGameName>
+      <price>8</price>
+      <grid>true</grid>
+      <snapCenter>true</snapCenter>
+      <category>SciFi</category>
+      <heightDelta>1</heightDelta>
+      <gridSubdivision>1</gridSubdivision>
+      <recolorable>true</recolorable>
+      <shader>Diffuse</shader>
+      <Color1>838383</Color1>
+      <Color2>67FADD</Color2>
+      <Color3>1C0FFF</Color3>
+      <Color4>FF00FF</Color4>
+    </Object>
+    <Object>
+      <OBJName>Sci Fi@TopWindow</OBJName>
+      <Type>deco</Type>
+      <inGameName>Window (Roof)</inGameName>
+      <price>1</price>
+      <grid>true</grid>
+      <snapCenter>true</snapCenter>
+      <category>SciFi</category>
+      <heightDelta>1</heightDelta>
+      <gridSubdivision>1</gridSubdivision>
+      <recolorable>true</recolorable>
+      <shader>Diffuse</shader>
+      <Color1>838383</Color1>
+      <Color2>67FADD</Color2>
+      <Color3>1C0FFF</Color3>
+      <Color4>FF00FF</Color4>
+    </Object>
+    <Object>
+      <OBJName>Sci Fi@TopCross</OBJName>
+      <Type>deco</Type>
+      <inGameName>Roof (Cross)</inGameName>
+      <price>5</price>
+      <grid>true</grid>
+      <snapCenter>true</snapCenter>
+      <category>SciFi</category>
+      <heightDelta>1</heightDelta>
+      <gridSubdivision>1</gridSubdivision>
+      <recolorable>true</recolorable>
+      <shader>Diffuse</shader>
+      <Color1>838383</Color1>
+      <Color2>67FADD</Color2>
+      <Color3>1C0FFF</Color3>
+      <Color4>FF00FF</Color4>
+    </Object>
+    <Object>
+      <OBJName>Sci Fi@TopBasic</OBJName>
+      <Type>deco</Type>
+      <inGameName>Roof (straight)</inGameName>
+      <price>5</price>
+      <grid>true</grid>
+      <snapCenter>true</snapCenter>
+      <category>SciFi</category>
+      <heightDelta>1</heightDelta>
+      <gridSubdivision>1</gridSubdivision>
+      <recolorable>true</recolorable>
+      <shader>Diffuse</shader>
+      <Color1>838383</Color1>
+      <Color2>67FADD</Color2>
+      <Color3>1C0FFF</Color3>
+      <Color4>FF00FF</Color4>
+    </Object>
+    <Object>
+      <OBJName>Sci Fi@TSplit</OBJName>
+      <Type>deco</Type>
+      <inGameName>Roof (R-Split)</inGameName>
+      <price>5</price>
+      <grid>true</grid>
+      <snapCenter>true</snapCenter>
+      <category>SciFi</category>
+      <heightDelta>1</heightDelta>
+      <gridSubdivision>1</gridSubdivision>
+      <recolorable>true</recolorable>
+      <shader>Diffuse</shader>
+      <Color1>838383</Color1>
+      <Color2>67FADD</Color2>
+      <Color3>1C0FFF</Color3>
+      <Color4>FF00FF</Color4>
+    </Object>
+    <Object>
+      <OBJName>Sci Fi@TurnOuter</OBJName>
+      <Type>deco</Type>
+      <inGameName>Wall (Outer)</inGameName>
+      <price>1</price>
+      <grid>true</grid>
+      <snapCenter>true</snapCenter>
+      <category>SciFi</category>
+      <heightDelta>1</heightDelta>
+      <gridSubdivision>1</gridSubdivision>
+      <recolorable>true</recolorable>
+      <shader>Diffuse</shader>
+      <Color1>838383</Color1>
+      <Color2>67FADD</Color2>
+      <Color3>1C0FFF</Color3>
+      <Color4>FF00FF</Color4>
+    </Object>
+    <Object>
+      <OBJName>Sci Fi@TopBasic_3</OBJName>
+      <Type>deco</Type>
+      <inGameName>Roof (Bend)</inGameName>
+      <price>5</price>
+      <grid>true</grid>
+      <snapCenter>true</snapCenter>
+      <category>SciFi</category>
+      <heightDelta>1</heightDelta>
+      <gridSubdivision>1</gridSubdivision>
+      <recolorable>true</recolorable>
+      <shader>Diffuse</shader>
+      <Color1>838383</Color1>
+      <Color2>67FADD</Color2>
+      <Color3>1C0FFF</Color3>
+      <Color4>FF00FF</Color4>
+    </Object>
+    <Object>
+      <OBJName>Sci Fi@Bench</OBJName>
+      <Type>seating</Type>
+      <inGameName>Bench</inGameName>
+      <price>5</price>
+      <recolorable>true</recolorable>
+      <shader>Diffuse</shader>
+      <Color1>838383</Color1>
+      <Color2>67FADD</Color2>
+      <Color3>1C0FFF</Color3>
+      <Color4>FF00FF</Color4>
+    </Object>
+    <Object>
+      <OBJName>Sci Fi@Cylinder_1</OBJName>
+      <Type>deco</Type>
+      <inGameName>Deco</inGameName>
+      <price>10</price>
+      <grid>false</grid>
+      <snapCenter>true</snapCenter>
+      <category>SciFi</category>
+      <heightDelta>1</heightDelta>
+      <gridSubdivision>1</gridSubdivision>
+      <recolorable>true</recolorable>
+      <shader>Diffuse</shader>
+      <Color1>545454</Color1>
+      <Color2>67FADD</Color2>
+      <Color3>1C0FFF</Color3>
+      <Color4>FF00FF</Color4>
+    </Object>
+    <Object>
+      <OBJName>Sci Fi@WallBasicHole</OBJName>
+      <Type>deco</Type>
+      <inGameName>Wall (Hole)</inGameName>
+      <price>3</price>
+      <grid>true</grid>
+      <snapCenter>true</snapCenter>
+      <category>SciFi</category>
+      <heightDelta>1</heightDelta>
+      <gridSubdivision>1</gridSubdivision>
+      <recolorable>true</recolorable>
+      <shader>Diffuse</shader>
+      <Color1>838383</Color1>
+      <Color2>67FADD</Color2>
+      <Color3>1C0FFF</Color3>
+      <Color4>FF00FF</Color4>
+    </Object>
+    <Object>
+      <OBJName>Sci Fi@Thing</OBJName>
+      <Type>deco</Type>
+      <inGameName>Deco</inGameName>
+      <price>7</price>
+      <grid>false</grid>
+      <snapCenter>true</snapCenter>
+      <category>SciFi</category>
+      <heightDelta>1</heightDelta>
+      <gridSubdivision>1</gridSubdivision>
+      <recolorable>true</recolorable>
+      <shader>Diffuse</shader>
+      <Color1>565656</Color1>
+      <Color2>67FADD</Color2>
+      <Color3>1C0FFF</Color3>
+      <Color4>FF00FF</Color4>
+    </Object>
+    <Object>
+      <OBJName>Sci Fi@WallBasicDoor</OBJName>
+      <Type>deco</Type>
+      <inGameName>Wall (Door)</inGameName>
+      <price>4</price>
+      <grid>true</grid>
+      <snapCenter>true</snapCenter>
+      <category>SciFi</category>
+      <heightDelta>1</heightDelta>
+      <gridSubdivision>1</gridSubdivision>
+      <recolorable>true</recolorable>
+      <shader>Diffuse</shader>
+      <Color1>838383</Color1>
+      <Color2>67FADD</Color2>
+      <Color3>1C0FFF</Color3>
+      <Color4>FF00FF</Color4>
+    </Object>
+    <Object>
+      <OBJName>Sci Fi@Thing_2</OBJName>
+      <Type>deco</Type>
+      <inGameName>Deco</inGameName>
+      <price>1</price>
+      <grid>false</grid>
+      <snapCenter>true</snapCenter>
+      <category>SciFi</category>
+      <heightDelta>0</heightDelta>
+      <gridSubdivision>1</gridSubdivision>
+      <recolorable>true</recolorable>
+      <shader>Diffuse</shader>
+      <Color1>636363</Color1>
+      <Color2>67FADD</Color2>
+      <Color3>1C0FFF</Color3>
+      <Color4>FF00FF</Color4>
+    </Object>
+    <Object>
+      <OBJName>Sci Fi@Cylinder</OBJName>
+      <Type>trashbin</Type>
+      <inGameName>Trashbin</inGameName>
+      <price>3</price>
+      <recolorable>true</recolorable>
+      <shader>Diffuse</shader>
+      <Color1>5F5F5F</Color1>
+      <Color2>67FADD</Color2>
+      <Color3>1C0FFF</Color3>
+      <Color4>FF00FF</Color4>
+    </Object>
+  </Objects>
+</Mod>

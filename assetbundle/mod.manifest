@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2276673417
+CRC: 3257932863
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 733b6ce9e21ce46030eedcef355e7d08
+    Hash: 29aaf57008585d5758d9fd3dd4b00b41
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 65a42fff7c06e41afbe9e914b7eb20ff
+    Hash: c07f3f946aa2e4865953f7eac3cb613d
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -37,29 +37,25 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 137
   Script: {instanceID: 0}
-- Class: 198
-  Script: {instanceID: 0}
-- Class: 199
-  Script: {instanceID: 0}
 Assets:
-- Assets/Mods/SciFi/SciFi@Bench.prefab
-- Assets/Mods/SciFi/SciFi@Thing.prefab
-- Assets/Mods/SciFi/SciFi@Satellite.prefab
-- Assets/Mods/SciFi/SciFi@WallBasicDoor.prefab
-- Assets/Mods/SciFi/SciFi@Cylinder_1.prefab
-- Assets/Mods/SciFi/SciFi@Quad.prefab
-- Assets/Mods/SciFi/SciFi@Cylinder.prefab
-- Assets/Mods/SciFi/SciFi@TSplit.prefab
-- Assets/Mods/SciFi/SciFi@4D_Cinema.prefab
-- Assets/Mods/SciFi/SciFi@Thing_2.prefab
-- Assets/Mods/SciFi/SciFi@TurnInner.prefab
-- Assets/Mods/SciFi/SciFi@TopWindow.prefab
-- Assets/Mods/SciFi/SciFi@LaserBattle.prefab
-- Assets/Mods/SciFi/SciFi@TopBasic_3.prefab
-- Assets/Mods/SciFi/SciFi@TopBasic.prefab
-- Assets/Mods/SciFi/SciFi@TurnOuter.prefab
-- Assets/Mods/SciFi/SciFi@WallBasic.prefab
-- Assets/Mods/SciFi/SciFi@TopCross.prefab
-- Assets/Mods/SciFi/SciFi@TopBasicHole_.prefab
-- Assets/Mods/SciFi/SciFi@WallBasicHole.prefab
+- Assets/Mods/Sci Fi/Sci Fi@Cylinder.prefab
+- Assets/Mods/Sci Fi/Sci Fi@WallBasicHole.prefab
+- Assets/Mods/Sci Fi/Sci Fi@Bench.prefab
+- Assets/Mods/Sci Fi/Sci Fi@Quad.prefab
+- Assets/Mods/Sci Fi/Sci Fi@TurnOuter.prefab
+- Assets/Mods/Sci Fi/Sci Fi@TopWindow.prefab
+- Assets/Mods/Sci Fi/Sci Fi@Satellite.prefab
+- Assets/Mods/Sci Fi/Sci Fi@Cylinder_1.prefab
+- Assets/Mods/Sci Fi/Sci Fi@TurnInner.prefab
+- Assets/Mods/Sci Fi/Sci Fi@TopBasic_3.prefab
+- Assets/Mods/Sci Fi/Sci Fi@TSplit.prefab
+- Assets/Mods/Sci Fi/Sci Fi@Thing.prefab
+- Assets/Mods/Sci Fi/Sci Fi@TopBasicHole_.prefab
+- Assets/Mods/Sci Fi/Sci Fi@WallBasicDoor.prefab
+- Assets/Mods/Sci Fi/Sci Fi@4D_Cinema.prefab
+- Assets/Mods/Sci Fi/Sci Fi@TopCross.prefab
+- Assets/Mods/Sci Fi/Sci Fi@WallBasic.prefab
+- Assets/Mods/Sci Fi/Sci Fi@LaserBattle.prefab
+- Assets/Mods/Sci Fi/Sci Fi@TopBasic.prefab
+- Assets/Mods/Sci Fi/Sci Fi@Thing_2.prefab
 Dependencies: []

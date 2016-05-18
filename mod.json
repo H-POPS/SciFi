@@ -3,7 +3,7 @@
 "CompilerVersion":"v3.5",
 "IsDevelopment":true,
 "IsEnabled":true,
-"Name":"SciFi",
+"Name":"Sci Fi",
 "Project":"ModSparkLoader.csproj",
 "Dependencies":["ParkitectNexus/Depender"]
 }
