@@ -328,11 +328,10 @@
     </Object>
     <Object>
       <OBJName>Sci Fi@Quad</OBJName>
-      <Type>CoasterCar</Type>
+      <Type>PathStyle</Type>
       <inGameName>SciFi</inGameName>
       <price>0</price>
-      <CoasterName>Steel Coaster</CoasterName>
-      <RestraintAngle>(0.0, 0.0, 0.0)</RestraintAngle>
+      <PathStyle>Normal</PathStyle>
       <recolorable>false</recolorable>
       <shader>Diffuse</shader>
     </Object>
